@@ -9,8 +9,8 @@ import About from "./About"
 import Projects from "./Projects"
 import Contact from "./Contact"
 import TESTER from "../containers/TESTER_CONTAINER"
-import TESTER_INCREMENT from "../containers/TESTER_INCREMENT_CONTAINER"
-import TESTER_DECREMENT from "../containers/TESTER_DECREMENT_CONTAINER"
+import RIGHT_BUTTON from "../containers/RIGHT_BUTTON_CONTAINER"
+import LEFT_BUTTON from "../containers/LEFT_BUTTON CONTAINER"
 
 
 
@@ -22,7 +22,7 @@ const App = ({ store }) => (
     <Projects />
     <Contact />
     <TESTER /> 
-    <TESTER_DECREMENT /> <TESTER_INCREMENT /> 
+    <LEFT_BUTTON /> <RIGHT_BUTTON /> 
   </Provider>
 )
 

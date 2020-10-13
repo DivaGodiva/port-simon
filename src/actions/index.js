@@ -1,13 +1,13 @@
-export const INCREMENT = "INCREMENT";
-export function testIncrement() {
+export const RIGHT = "RIGHT";
+export function testRight() {
   return {
-    type: INCREMENT
+    type: RIGHT
   }
 }
 
-export const DECREMENT = "DECREMENT";
-export function testDecrement() {
+export const LEFT = "LEFT";
+export function testLeft() {
   return {
-    type: DECREMENT
+    type: LEFT
   }
 }

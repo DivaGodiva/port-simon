@@ -1,9 +1,9 @@
 import React from "react";
 
-const TESTER_DECREMENT = ({handleClick}) => (
+const LEFT_BUTTON = ({handleClick}) => (
   <button onClick={handleClick}>
     LEFT
   </button>
 )
 
-export default TESTER_DECREMENT;
+export default LEFT_BUTTON;
