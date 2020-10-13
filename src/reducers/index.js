@@ -2,7 +2,7 @@ import { INCREMENT, DECREMENT } from "../actions/index";
 
 const initialState = {
   testNumber: [0, 1, 2],
-  photoArray: ['img1', 'img2', 'img3', 'img4']
+  photoArray: ['img1', 'img2', 'img3', 'img4', 'img5']
 };
 
 function rootReducer(state = initialState, action) {
@@ -14,7 +14,7 @@ function rootReducer(state = initialState, action) {
   } else if (action.type === DECREMENT) {
     console.log(`Go Left dispatched - Previous state: ${state.testNumber}`)
     return Object.assign({}, state, {
-      testNumber: state.testNumber.map(n => n === 0 ? 3: n - 1)
+      testNumber: state.testNumber.map(n => n === 0 ? state.photoArray.length - 1: n - 1)
     })
   }
   return state;
