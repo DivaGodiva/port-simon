@@ -22,7 +22,7 @@ const App = ({ store }) => (
     <Projects />
     <Contact />
     <TESTER /> 
-    <TESTER_INCREMENT /> <TESTER_DECREMENT />
+    <TESTER_DECREMENT /> <TESTER_INCREMENT /> 
   </Provider>
 )
 

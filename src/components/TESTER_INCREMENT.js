@@ -2,7 +2,7 @@ import React from "react";
 
 const TESTER_INCREMENT = ({handleClick}) => (
   <button onClick={handleClick}>
-    INCREMENT
+    RIGHT
   </button>
 )
 
