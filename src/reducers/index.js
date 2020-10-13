@@ -1,7 +1,8 @@
 import { INCREMENT, DECREMENT } from "../actions/index";
 
 const initialState = {
-  testNumber: 1
+  testNumber: 1,
+  photoArray: ['img1', 'img2', 'img3', 'img4']
 };
 
 function rootReducer(state = initialState, action) {
