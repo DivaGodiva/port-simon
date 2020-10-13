@@ -1,8 +1,10 @@
 import React from "react";
 
-const TESTER = ({testNumber}) => (
+const TESTER = ({testNumber, photoArray}) => (
   <h2>
-    {testNumber}
+    {photoArray[testNumber[0]]}
+    {photoArray[testNumber[1]]}
+    {photoArray[testNumber[2]]}
   </h2>
 )
 
