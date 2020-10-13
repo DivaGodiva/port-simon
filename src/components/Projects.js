@@ -2,7 +2,7 @@ import React from "react";
 import RIGHT_BUTTON from "../containers/RIGHT_BUTTON_CONTAINER"
 import LEFT_BUTTON from "../containers/LEFT_BUTTON CONTAINER"
 
-const TESTER = ({testNumber, photoArray}) => (
+const Projects = ({testNumber, photoArray}) => (
   <div>
     <h2>Projects</h2>
     <LEFT_BUTTON />
@@ -13,6 +13,6 @@ const TESTER = ({testNumber, photoArray}) => (
   </div>
 )
 
-export default TESTER;
+export default Projects;
 
 

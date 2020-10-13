@@ -6,8 +6,9 @@ import { Provider } from "react-redux";
 import Header from "./Header"
 import Landing from "./Landing"
 import About from "./About"
+import Projects from "../containers/Projects_Container"
 import Contact from "./Contact"
-import TESTER from "../containers/TESTER_CONTAINER"
+
 
 
 
@@ -16,7 +17,7 @@ const App = ({ store }) => (
     <Header />
     <Landing />
     <About />
-    <TESTER /> 
+    <Projects /> 
     <Contact />
   </Provider>
 )
