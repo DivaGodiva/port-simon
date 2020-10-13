@@ -6,11 +6,8 @@ import { Provider } from "react-redux";
 import Header from "./Header"
 import Landing from "./Landing"
 import About from "./About"
-import Projects from "./Projects"
 import Contact from "./Contact"
 import TESTER from "../containers/TESTER_CONTAINER"
-import RIGHT_BUTTON from "../containers/RIGHT_BUTTON_CONTAINER"
-import LEFT_BUTTON from "../containers/LEFT_BUTTON CONTAINER"
 
 
 
@@ -19,10 +16,8 @@ const App = ({ store }) => (
     <Header />
     <Landing />
     <About />
-    <Projects />
-    <Contact />
     <TESTER /> 
-    <LEFT_BUTTON /> <RIGHT_BUTTON /> 
+    <Contact />
   </Provider>
 )
 
