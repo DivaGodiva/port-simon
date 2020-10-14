@@ -2,3 +2,7 @@ body {
   margin: 0;
 }
 
+.lazy-susan {
+  height: 8em;
+  width: 10em;
+}

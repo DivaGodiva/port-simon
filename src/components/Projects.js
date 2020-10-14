@@ -6,9 +6,9 @@ const Projects = ({testNumber, photoArray}) => (
   <div>
     <h2>Projects</h2>
     <LEFT_BUTTON />
-    <img src={photoArray[testNumber[0]]} alt="position1" />
-    <img src={photoArray[testNumber[1]]} alt="position2" />
-    <img src={photoArray[testNumber[2]]} alt="position3" />
+    <img src={photoArray[testNumber[0]]} alt="position1" class="lazy-susan"/>
+    <img src={photoArray[testNumber[1]]} alt="position2" class="lazy-susan"/>
+    <img src={photoArray[testNumber[2]]} alt="position3" class="lazy-susan"/>
     <RIGHT_BUTTON />
   </div>
 )
