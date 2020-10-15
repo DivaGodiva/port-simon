@@ -11,3 +11,17 @@ export function testLeft() {
     type: LEFT
   }
 }
+
+export const ENTER = "ENTER";
+export function testEnter() {
+  return {
+    type: ENTER
+  }
+}
+
+export const LEAVE = "LEAVE";
+export function testLeave() {
+  return {
+    type: LEAVE
+  }
+}

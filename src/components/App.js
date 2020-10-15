@@ -9,9 +9,6 @@ import About from "./About"
 import Projects from "../containers/Projects_Container"
 import Contact from "./Contact"
 
-
-
-
 const App = ({ store }) => (
   <Provider store={store}>
     <Header />
