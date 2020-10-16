@@ -23,14 +23,18 @@ function rootReducer(state = initialState, action) {
       testNumber: state.testNumber.map(n => n === 0 ? state.photoArray.length - 1: n - 1)
     });
   } else if (action.type === ENTER) {
-    console.log(`Mouse enter - Current state: ${state.greyToggle}`);
+    console.log(`Mouse enter - Current state: ${!state.greyToggle[action.number]}`);
     return Object.assign({}, state, {
-      greyToggle: !state.greyToggle[action.number]
+      greyToggle: Object.assign({...state.greyToggle}, {
+        [action.number]: !state.greyToggle[action.number]
+      })
     });
   } else if (action.type === LEAVE) {
-    console.log(`Mouse leave - Current state: ${state.greyToggle}`);
+    console.log(`Mouse leave - Current state: ${!state.greyToggle[action.number]}`);
     return Object.assign({}, state, {
-      greyToggle: !state.greyToggle[action.number]
+      greyToggle: Object.assign({...state.greyToggle}, {
+        [action.number] :!state.greyToggle[action.number]
+      })
     });
   }
   return state;
