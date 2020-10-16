@@ -1,9 +1,7 @@
-#header {
+.header {
   overflow: hidden;
   background-color: #f1f1f1;
   padding: .5em 3em .5em 2em;
-  font-weight: 1000;
-  font-size: 1.15em;
 }
 
 .bauble {
@@ -13,15 +11,17 @@
   border: .2em solid silver;
   float: left;
   position: relative;
-  top: .2em;
-  margin-left: 1em;
+  top: .5em;
+  margin-left: 2em;
 }
 
 .title {
   position: relative;
   top: .6em;
   display: block;
-  padding-left: 4.7em;
+  padding-left: 5em;
+  font-weight: 1000;
+  font-size: 1.15em;
 }
 
 .links {
@@ -30,6 +30,8 @@
   position: relative;
   bottom: 1.3em;
   float: right;
+  font-weight: 1000;
+  font-size: 1.15em;
 }
 
 .grey {

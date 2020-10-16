@@ -1,7 +1,7 @@
 import React from "react";
 
 const Header = () => (
-    <div id="header">
+    <div className="header">
       <img src="/assets/profile.png" className="bauble" alt="YAS" />
       <span className="title">Simon Chae</span>
       <span className="title grey">Web Developer</span>
