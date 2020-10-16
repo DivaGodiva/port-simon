@@ -24,18 +24,15 @@
   padding-left: 4.7em;
 }
 
-.grey {
-  font-weight: 100;
-  color: rgb(107, 105, 105);
-}
-
 .links {
   margin-left: 1em;
   margin-right: 1em;
   position: relative;
   bottom: 1.3em;
+  float: right;
 }
 
-.links {
-  float: right;
+.grey {
+  font-weight: 100;
+  color: rgb(107, 105, 105);
 }
