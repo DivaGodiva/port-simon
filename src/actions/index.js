@@ -13,15 +13,17 @@ export function testLeft() {
 }
 
 export const ENTER = "ENTER";
-export function testEnter() {
+export function testEnter(number) {
   return {
-    type: ENTER
+    type: ENTER,
+    number
   }
 }
 
 export const LEAVE = "LEAVE";
-export function testLeave() {
+export function testLeave(number) {
   return {
-    type: LEAVE
+    type: LEAVE,
+    number
   }
 }

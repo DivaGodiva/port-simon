@@ -10,8 +10,8 @@ const mapStateToProps = (state) => ({
 })
 
 const mapDispatchToProps = (dispatch) => ({
-  handleMouseEnter: () => dispatch(testEnter()),
-  handleMouseLeave: () => dispatch(testLeave())
+  handleMouseEnter: number => dispatch(testEnter(number)),
+  handleMouseLeave: number => dispatch(testLeave(number))
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(Projects);
