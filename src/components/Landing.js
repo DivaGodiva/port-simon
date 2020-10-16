@@ -6,6 +6,7 @@ const Landing = () => (
       <h2 className="headinglines">I design and code web applications.</h2>
       <h2 className="headinglines">I am a full-stack developer, specializing in the front-end.</h2>
       <h2 className="headinglines">See my projects below!</h2>
+      <hr className="landingline"/>
     </div>
 )
 

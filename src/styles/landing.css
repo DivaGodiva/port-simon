@@ -1,9 +1,23 @@
+#landing {
+  margin: 6em 6em 8em 6em;
+}
+
 .heading {
   font-size: 3.5em;
   font-weight: 900;
+  padding-bottom: .75em;
+  padding-left: 1.1em;
 }
 
 .headinglines {
   font-size: 3em;
-  font-weight: 200;
+  font-weight: 100;
+  padding-left: 2.2em;
+  padding-bottom: .75em;
+}
+
+.landingline {
+  margin-top: 5em;
+  width: 60%;
+  text-align: center;
 }
