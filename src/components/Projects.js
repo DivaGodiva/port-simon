@@ -12,8 +12,7 @@ const Projects = ({testNumber, photoArray, photoLinks, greyToggle, handleMouseEn
         onMouseLeave={() => handleMouseLeave(0)}
         src={photoArray[testNumber[0]]}
         alt="position1"
-        className="lazy-susan"
-        id={`lazy-susan-1${greyToggle[0] ? "-show" : ""}`}
+        className={`lazy-susan${greyToggle[0] ? "-show" : ""}`}
       />
     </a>
     <a href={photoLinks[testNumber[1]]}>
@@ -22,8 +21,7 @@ const Projects = ({testNumber, photoArray, photoLinks, greyToggle, handleMouseEn
         onMouseLeave={() => handleMouseLeave(1)}
         src={photoArray[testNumber[1]]}
         alt="position2"
-        className="lazy-susan"
-        id={`lazy-susan-2${greyToggle[1] ? "-show" : ""}`}
+        className={`lazy-susan${greyToggle[1] ? "-show" : ""}`}
       />
     </a>
     <a href={photoLinks[testNumber[2]]}>
@@ -32,8 +30,7 @@ const Projects = ({testNumber, photoArray, photoLinks, greyToggle, handleMouseEn
         onMouseLeave={() => handleMouseLeave(2)}
         src={photoArray[testNumber[2]]}
         alt="position3"
-        className="lazy-susan"
-        id={`lazy-susan-3${greyToggle[2] ? "-show" : ""}`}
+        className={`lazy-susan${greyToggle[2] ? "-show" : ""}`}
       />
     </a>
     <RIGHT_BUTTON />

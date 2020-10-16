@@ -6,3 +6,9 @@ body {
   height: 8em;
   width: 10em;
 }
+
+.lazy-susan-show {
+  height: 8em;
+  width: 10em;
+  opacity: 0.4;
+}
