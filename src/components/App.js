@@ -1,4 +1,6 @@
 import '../styles/index.css';
+import '../styles/header.css';
+import '../styles/projects.css';
 import React from "react";
 import { Provider } from "react-redux";
 // import { BrowserRouter as Router, Route } from 'react-router-dom';

@@ -1,0 +1,41 @@
+#header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: .5em 3em .5em 2em;
+  font-weight: 1000;
+  font-size: 1.15em;
+}
+
+.bauble {
+  height: 3.25em;
+  width: 3.25em;
+  border-radius: 50%;
+  border: .2em solid silver;
+  float: left;
+  position: relative;
+  top: .2em;
+  margin-left: 1em;
+}
+
+.title {
+  position: relative;
+  top: .6em;
+  display: block;
+  padding-left: 4.7em;
+}
+
+.grey {
+  font-weight: 100;
+  color: rgb(107, 105, 105);
+}
+
+.links {
+  margin-left: 1em;
+  margin-right: 1em;
+  position: relative;
+  bottom: 1.3em;
+}
+
+.links {
+  float: right;
+}
