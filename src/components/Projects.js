@@ -3,7 +3,7 @@ import RIGHT_BUTTON from "../containers/RIGHT_BUTTON_CONTAINER"
 import LEFT_BUTTON from "../containers/LEFT_BUTTON CONTAINER"
 
 const Projects = ({testNumber, photoArray, photoLinks, greyToggle, handleMouseEnter, handleMouseLeave}) => (
-  <div>
+  <div id="projcets">
     <h2>Projects</h2>
     <LEFT_BUTTON />
     <a href={photoLinks[testNumber[0]]}>
