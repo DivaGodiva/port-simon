@@ -21,3 +21,12 @@ time, mark, audio, video {
   text-decoration: none;
   box-sizing: border-box;
 }
+
+.landingline {
+  margin-top: 5em;
+  width: 60%;
+  text-align: center;
+  background-color: ivory;
+  color: ivory;
+  border-color: ivory;
+}

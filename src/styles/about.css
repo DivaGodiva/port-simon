@@ -1,0 +1,16 @@
+#about {
+  margin: 7.3em 6em 7.3em 6em;
+  color: gray;
+}
+
+.aboutheader {
+  font-size: 3.5em;
+  padding-left: 1.1em;
+  padding-bottom: .75em;
+}
+
+.aboutlines {
+  font-size: 2em;
+  padding-left: 3.3em;
+  padding-bottom: 1em;
+}

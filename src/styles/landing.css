@@ -1,5 +1,5 @@
 #landing {
-  margin: 6em 6em 8em 6em;
+  margin: 7.3em 6em 7.3em 6em;
 }
 
 .heading {
@@ -14,10 +14,4 @@
   font-weight: 100;
   padding-left: 2.2em;
   padding-bottom: .75em;
-}
-
-.landingline {
-  margin-top: 5em;
-  width: 60%;
-  text-align: center;
 }
