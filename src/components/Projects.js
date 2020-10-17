@@ -36,6 +36,7 @@ const Projects = ({testNumber, photoArray, photoLinks, greyToggle, handleMouseEn
       </a>
       <RIGHT_BUTTON />
     </div>
+    <hr className="landingline"/>
   </div>
 )
 

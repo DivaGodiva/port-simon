@@ -22,18 +22,18 @@ time, mark, audio, video {
   box-sizing: border-box;
 }
 
-.landingline {
-  margin-top: 5em;
-  width: 60%;
-  text-align: center;
-  background-color: ivory;
-  color: ivory;
-  border-color: ivory;
-}
-
 input:focus,
 select:focus,
 textarea:focus,
 button:focus {
     outline: none;
+}
+
+.landingline {
+  margin-top: 6em;
+  width: 60%;
+  text-align: center;
+  background-color: ivory;
+  color: ivory;
+  border-color: ivory;
 }
