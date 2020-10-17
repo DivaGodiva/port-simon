@@ -10,3 +10,24 @@
   padding-bottom: .75em;
   padding-left: 1.1em;
 }
+
+.name {
+  font-size: 2em;
+  padding-left: 3.3em;
+  padding-bottom: 1em;
+}
+
+div.name {
+  padding-top: 1em;
+}
+
+.contactlinks {
+  color: gainsboro;
+  padding-right: .25em;
+}
+
+#copyright {
+  position: relative;
+  top: 2.25em;
+  padding-left: 6.7em;
+}
