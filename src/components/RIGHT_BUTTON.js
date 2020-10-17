@@ -1,8 +1,8 @@
 import React from "react";
 
 const RIGHT_BUTTON = ({handleClick}) => (
-  <button onClick={handleClick}>
-    RIGHT
+  <button className="arrowbuttonright" onClick={handleClick}>
+    <i className="arrow right"></i>
   </button>
 )
 

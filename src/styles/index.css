@@ -30,3 +30,10 @@ time, mark, audio, video {
   color: ivory;
   border-color: ivory;
 }
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
