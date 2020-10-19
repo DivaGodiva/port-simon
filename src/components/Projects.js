@@ -4,6 +4,7 @@ import LEFT_BUTTON from "../containers/LEFT_BUTTON CONTAINER"
 
 const Projects = ({testNumber, photoArray, photoLinks, greyToggle, handleMouseEnter, handleMouseLeave}) => (
   <div id="projects">
+    <hr className="landingline"/>
     <h2 className="projectsheader">Projects</h2>
     <div className="lazysusancontainer">
       <LEFT_BUTTON />
@@ -36,7 +37,6 @@ const Projects = ({testNumber, photoArray, photoLinks, greyToggle, handleMouseEn
       </a>
       <RIGHT_BUTTON />
     </div>
-    <hr className="landingline"/>
   </div>
 )
 
