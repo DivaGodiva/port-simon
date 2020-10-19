@@ -8,7 +8,7 @@ const Projects = ({testNumber, photoArray, photoLinks, greyToggle, handleMouseEn
     <h2 className="projectsheader">Projects</h2>
     <div className="lazysusancontainer">
       <LEFT_BUTTON />
-      <a href={photoLinks[testNumber[0]]}>
+      <a href={photoLinks[testNumber[0]]} target="_blank" rel="noopener noreferrer">
         <img
           onMouseEnter={() => handleMouseEnter(0)}
           onMouseLeave={() => handleMouseLeave(0)}
@@ -17,7 +17,7 @@ const Projects = ({testNumber, photoArray, photoLinks, greyToggle, handleMouseEn
           className={`lazy-susan${greyToggle[0] ? "-show" : ""}`}
         />
       </a>
-      <a href={photoLinks[testNumber[1]]}>
+      <a href={photoLinks[testNumber[1]]} target="_blank" rel="noopener noreferrer">
         <img
           onMouseEnter={() => handleMouseEnter(1)}
           onMouseLeave={() => handleMouseLeave(1)}
@@ -26,7 +26,7 @@ const Projects = ({testNumber, photoArray, photoLinks, greyToggle, handleMouseEn
           className={`lazy-susan${greyToggle[1] ? "-show" : ""}`}
         />
       </a>
-      <a href={photoLinks[testNumber[2]]}>
+      <a href={photoLinks[testNumber[2]]} target="_blank" rel="noopener noreferrer">
         <img
           onMouseEnter={() => handleMouseEnter(2)}
           onMouseLeave={() => handleMouseLeave(2)}
