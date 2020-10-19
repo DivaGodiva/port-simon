@@ -6,9 +6,9 @@ const Contact = () => (
       <h3 className="name"> Simon Chae </h3>
       <a className="name contactlinks" href="https://www.w3schools.com">s13chae@gmail.com</a>
       <div className="name">
-        <a className="contactlinks" href="https://www.w3schools.com">Linked</a>
-        <a className="contactlinks" href="https://www.w3schools.com">Github</a>
-        <a className="contactlinks" href="https://www.w3schools.com">Insta</a>
+        <a className="contactlinks" href="https://www.w3schools.com" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin-square"></i></a>
+        <a className="contactlinks" href="https://github.com/DivaGodiva" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i></a>
+        <a className="contactlinks" href="https://www.w3schools.com" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram"></i></a>
       </div>
       <span id="copyright">Created by me © Godivanbuns</span>
     </div>
