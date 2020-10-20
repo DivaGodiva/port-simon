@@ -20,6 +20,7 @@ time, mark, audio, video {
   font-weight: normal;
   text-decoration: none;
   box-sizing: border-box;
+  scroll-behavior: smooth
 }
 
 input:focus,

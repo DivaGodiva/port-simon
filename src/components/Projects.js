@@ -17,7 +17,7 @@ const Projects = ({testNumber, photoArray, photoLinks, greyToggle, handleMouseEn
           className={`lazy-susan${greyToggle[0] ? "-show" : ""}`}
         />
       </a>
-      <a href={photoLinks[testNumber[1]]} target="_blank" rel="noopener noreferrer">
+      <a className="sites" href={photoLinks[testNumber[1]]} target="_blank" rel="noopener noreferrer">
         <img
           onMouseEnter={() => handleMouseEnter(1)}
           onMouseLeave={() => handleMouseLeave(1)}
@@ -26,7 +26,7 @@ const Projects = ({testNumber, photoArray, photoLinks, greyToggle, handleMouseEn
           className={`lazy-susan${greyToggle[1] ? "-show" : ""}`}
         />
       </a>
-      <a href={photoLinks[testNumber[2]]} target="_blank" rel="noopener noreferrer">
+      <a className="sites" href={photoLinks[testNumber[2]]} target="_blank" rel="noopener noreferrer">
         <img
           onMouseEnter={() => handleMouseEnter(2)}
           onMouseLeave={() => handleMouseLeave(2)}
