@@ -13,24 +13,24 @@
 
 .name {
   color: grey;
-  font-size: 1.5em;
-  margin-left: 4em;
+  font-size: 1em;
+  margin-left: 6em;
   margin-bottom: 1em;
 }
 
 .wack {
-  margin-top: 1.3em;
+  margin-top: 1.5em;
 }
 
 .nameo {
   box-shadow: -.25em -.25em 1em white, .1em .1em 1.25em #a3b1c6;
-  padding: .5em .6em .5em .6em;
+  padding: .8em .9em .8em .9em;
   border-radius: 1em;
   margin-bottom: 2em;
 }
 
 .namae {
-  width: 7.25em;
+  width: 7.8em;
 }
 
 div.name {
@@ -39,9 +39,9 @@ div.name {
 
 .contactlinks {
   color: grey;
-  margin-right: 1.75em;
+  margin-right: 1.5em;
   box-shadow: -.25em -.25em 1em white, .1em .1em 1.25em #a3b1c6;
-  padding: .35em .6em .35em .6em;
+  padding: .55em .8em .55em .8em;
   border-radius: 50%;
 }
 
