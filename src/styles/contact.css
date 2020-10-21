@@ -18,10 +18,6 @@
   margin-bottom: 1em;
 }
 
-.wack {
-  margin-top: 1.5em;
-}
-
 .nameo {
   box-shadow: -.25em -.25em 1em white, .1em .1em 1.25em #a3b1c6;
   padding: .8em .9em .8em .9em;
@@ -49,4 +45,22 @@ div.name {
   position: relative;
   top: 2.25em;
   padding-left: 6em;
+}
+
+.name:hover {
+  box-shadow: inset -.25em -.25em 1em white, inset .1em .1em 1.25em #a3b1c6;
+}
+
+.contactlinks:hover {
+  box-shadow: inset -.25em -.25em 1em white, inset .1em .1em 1.25em #a3b1c6;
+}
+
+
+.wack {
+  margin-top: 1.5em;
+}
+
+.wack:hover {
+  margin-top: 1.5em;
+  box-shadow: none;
 }
