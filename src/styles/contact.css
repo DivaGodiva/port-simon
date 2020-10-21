@@ -1,14 +1,16 @@
 #contact {
   padding: 4em 6em 7.3em 6em;
   color: gainsboro;
-  background: #3C3C3C;
+  /* background: #3C3C3C; */
+  background: linear-gradient(180deg, rgba(255,255,255,1), rgba(224,229,236,1) 35% 100%);
 }
 
 .contactheading {
   font-size: 3.5em;
-  font-weight: 900;
+  font-weight: 500;
   padding-bottom: .75em;
   padding-left: 1.1em;
+  color:grey;
 }
 
 .name {
