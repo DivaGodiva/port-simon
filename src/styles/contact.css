@@ -1,8 +1,7 @@
 #contact {
   padding: 4em 6em 7.3em 6em;
-  color: gainsboro;
-  /* background: #3C3C3C; */
   background: linear-gradient(180deg, rgba(255,255,255,1), rgba(224,229,236,1) 35% 100%);
+  color: grey;
 }
 
 .contactheading {
@@ -10,13 +9,28 @@
   font-weight: 500;
   padding-bottom: .75em;
   padding-left: 1.1em;
-  color:grey;
 }
 
 .name {
+  color: grey;
   font-size: 1.5em;
-  padding-left: 4em;
-  padding-bottom: 1em;
+  margin-left: 4em;
+  margin-bottom: 1em;
+}
+
+.wack {
+  margin-top: 1.3em;
+}
+
+.nameo {
+  box-shadow: -.25em -.25em 1em white, .1em .1em 1.25em #a3b1c6;
+  padding: .5em .6em .5em .6em;
+  border-radius: 1em;
+  margin-bottom: 2em;
+}
+
+.namae {
+  width: 7.25em;
 }
 
 div.name {
@@ -24,8 +38,11 @@ div.name {
 }
 
 .contactlinks {
-  color: gainsboro;
-  margin-right: .5em;
+  color: grey;
+  margin-right: 1.75em;
+  box-shadow: -.25em -.25em 1em white, .1em .1em 1.25em #a3b1c6;
+  padding: .35em .6em .35em .6em;
+  border-radius: 50%;
 }
 
 #copyright {
